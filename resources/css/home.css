@@ -1,0 +1,75 @@
+
+
+.img-fluid {
+    height: 320px; /* ปรับความสูงตามที่คุณต้องการ */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* กำหนดสไตล์ของเมนู */
+nav {
+    width: 100%; /* ทำให้ <nav> มีความกว้างเต็มหน้าจอ */
+    background-color: #333; /* สีพื้นหลังของ <nav> */
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* กำหนดสไตล์ลิงก์ */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust the height as needed */
+}
+
+.hover-effect:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    transform: scale(1.05);
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+/* CSS เพื่อจัดหน้าเมนูทางด้านขวา */
+
+
+.menu li {
+    margin: 0 10px; /* ระยะห่างระหว่างรายการเมนู */
+}
+.img-fluid-modal{
+    justify-content: center;
+}
+.card-text{
+   margin: auto;
+}
+
+.aaa1
+{
+    padding-right: 10px;
+    flex: 2;
+    margin-right: 20px;
+}
+.colorli{
+    color: aliceblue;
+}
